@@ -1,0 +1,7 @@
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/install/strip.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/edit_cache.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/naobattery.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/rebuild_cache.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/list_install_components.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/install/local.dir
+/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-toolchainnao/CMakeFiles/install.dir
