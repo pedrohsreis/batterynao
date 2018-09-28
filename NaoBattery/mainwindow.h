@@ -1,5 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
+#include <QProcess>
 
 #include <QMainWindow>
 
@@ -15,8 +16,13 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+
+    void on_btnStatusBateria_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QProcess p;
 };
 
 #endif // MAINWINDOW_H

@@ -14,6 +14,8 @@
 #include <alvalue/alvalue.h>
 #include <alproxies/albatteryproxy.h>
 
+using namespace std;
+
 int main(int argc, char* argv[])
 {
   if(argc != 2)
@@ -46,7 +48,9 @@ int main(int argc, char* argv[])
       tts.say(phraseToSay);
       tts.say(phraseToSay2);
       tts.say(percent);
-      tts.say("Fuck you, stop messing with my fucking code. Thank you.");
+
+      cout << phraseToSay << batteryCharge << " " << percent << endl;
+
       if(batteryCharge < 11)
         tts.say(lowBattery);
   }

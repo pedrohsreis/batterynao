@@ -5,8 +5,8 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    MainWindow* w = new MainWindow();
+    w->show();
 
 
 //    QString programa = "/home/pedro/Desktop/naoqi-sdk-2.1.4.13-linux64/naobattery/build-mytoolchain/sdk/bin/naobattery nao03.local";
