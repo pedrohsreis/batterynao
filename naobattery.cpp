@@ -1,13 +1,3 @@
-/**
- * Copyright (c) 2011 Aldebaran Robotics. All Rights Reserved
- * \file sayhelloworld.cpp
- * \brief Make NAO say a short phrase.
- *
- * A simple example showing how to make NAO say a short phrase using the
- * specialized proxy ALTextToSpeechProxy.
- */
-
-
 #include <iostream>
 #include <alerror/alerror.h>
 #include <alproxies/altexttospeechproxy.h>
