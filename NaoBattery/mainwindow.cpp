@@ -64,3 +64,14 @@ void MainWindow::on_btnStatusBateria_clicked()
         p.start(programa, args);
     }
 }
+
+/*
+ * QProcess process;
+process.start("/path/to/test.sh");
+process.waitForFinished();
+QString output = process.readAllStandardOutput();
+qDebug() << output;
+QString err = process.readAllStandardError();
+qDebug() << err;
+
+*/
