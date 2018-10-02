@@ -33,16 +33,16 @@ int main(int argc, char* argv[])
   try
   {
 
-    AL::ALTextToSpeechProxy tts(argv[1], 9559);
+    //AL::ALTextToSpeechProxy tts(argv[1], 9559);
 
-      tts.say(phraseToSay);
-      tts.say(phraseToSay2);
-      tts.say(percent);
+      //tts.say(phraseToSay);
+      //tts.say(phraseToSay2);
+      //tts.say(percent);
 
       cout << phraseToSay << batteryCharge << " " << percent << endl;
 
-      if(batteryCharge < 11)
-        tts.say(lowBattery);
+      //if(batteryCharge < 11);
+        //tts.say(lowBattery);
   }
   
   catch (const AL::ALError& e)

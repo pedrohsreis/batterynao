@@ -20,6 +20,8 @@ private slots:
 
     void on_btnStatusBateria_clicked();
 
+    void on_textBrowser_textChanged();
+
 private:
     Ui::MainWindow *ui;
     QProcess p;
